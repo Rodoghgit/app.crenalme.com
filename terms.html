@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Condiciones de uso de Crenalme: contraseñas, límites del algoritmo, gestión de notas y licencia del App Store.">
+  <title>Condiciones de uso — Crenalme</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: #202124; font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    header, main, footer { max-width: 760px; margin: auto; padding: 24px; }
+    header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; border-bottom: 1px solid #e5e7eb; }
+    nav, footer { display: flex; flex-wrap: wrap; gap: 16px; }
+    .brand { font-weight: 650; color: inherit; text-decoration: none; }
+    a { color: #0066cc; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #0066cc; outline-offset: 4px; }
+    h1 { font-size: clamp(30px, 6vw, 42px); line-height: 1.15; letter-spacing: -1px; margin: 24px 0 16px; }
+    h2 { font-size: 21px; line-height: 1.35; margin: 32px 0 10px; }
+    p, ul, ol { margin: 0 0 16px; }
+    li { margin-bottom: 8px; }
+    .muted { color: #62666d; font-size: 15px; }
+    .button { display: inline-block; padding: 12px 20px; margin: 8px 0 24px; color: #fff; background: #0066cc; border-radius: 10px; text-decoration: none; font-weight: 600; }
+    footer { border-top: 1px solid #e5e7eb; font-size: 14px; margin-top: 32px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111; color: #eee; }
+      header, footer { border-color: #333; }
+      a { color: #8cbdff; }
+      .brand { color: inherit; }
+      .muted { color: #b2b5bb; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="brand" href="index.html">Crenalme</a>
+    <nav aria-label="Navegación principal">
+        <a href="privacy.html">Privacidad</a>
+        <a href="terms.html" aria-current="page">Condiciones</a>
+        <a href="support.html">Soporte</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Condiciones de uso</h1>
+    <p class="muted">Última actualización: 14 de octubre de 2026. Aplicable a Crenalme 1.0.</p>
+
+    <h2>Sobre Crenalme</h2>
+    <p>Crenalme permite crear, editar, encriptar y exportar tus propias notas de texto. No necesitas una cuenta ni una conexión a un servidor para utilizar estas funciones. Su responsable es DEVELOPER_NAME; puedes contactar en <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+
+    <h2>Contraseñas</h2>
+    <p>El algoritmo aplica cualquier contraseña y no confirma si es la original. El resultado puede ser ilegible. Revisa el contenido antes de guardar: si guardas tras aplicar otra contraseña, puedes sobrescribir el contenido original.</p>
+    <p>Las contraseñas no se conservan al cerrar el editor. Tú debes conservarlas y mantener las copias que necesites. Crenalme no ofrece recuperación de contraseñas.</p>
+
+    <h2>Límites de la encriptación</h2>
+    <p>La app utiliza el algoritmo propio Crenalme 1.0.4 en su modo -r. No es un algoritmo de cifrado estandarizado ni verifica la autenticidad de los documentos. Con la misma contraseña se repite la secuencia de cifrado. No debe considerarse una garantía de protección para información crítica.</p>
+
+    <h2>Notas y copias</h2>
+    <p>Guardar o encriptar actualiza la nota original. Eliminar una nota borra su copia local. Al compartir se exporta una copia encriptada de la versión guardada, que es independiente del documento de la app.</p>
+    <p>Tú decides dónde conservar esas copias y con quién compartirlas. Las condiciones del destino elegido, como iCloud Drive, son independientes de las de Crenalme.</p>
+
+    <h2>Copias en iCloud</h2>
+    <p>Las copias opcionales de las notas cifradas usan tu iCloud Drive y requieren conexión y espacio. Borrar una nota local o desinstalar la app no elimina las copias ya subidas. Gestiona esas copias en Archivos y comprueba que la subida haya terminado antes de desinstalar. La copia cifrada no permite recuperar una contraseña perdida.</p>
+
+    <h2>Licencia y derechos</h2>
+    <p>La distribución mediante el App Store está sujeta a la licencia aplicable indicada en la ficha de la app. Salvo que se publique una licencia personalizada, se aplica el <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">acuerdo de licencia estándar de Apple</a>.</p>
+    <p>Estas condiciones describen el uso de Crenalme y complementan la licencia aplicable. No limitan los derechos que te reconozca la legislación aplicable.</p>
+
+    <h2>Privacidad y contacto</h2>
+    <p>Consulta la <a href="privacy.html">política de privacidad</a> para conocer el tratamiento de los datos, y la página de <a href="support.html">soporte</a> si necesitas ayuda.</p>
+    <h2>Modo avanzado opcional</h2>
+    <p>Actívalo en Ajustes antes de abrir una nota. Permite editar, encriptar y desencriptar repetidamente sin afirmar si el contenido está cifrado. Cada operación utiliza el contenido visible. Encriptar guarda el resultado inmediatamente y reinicia las contraseñas de descifrado de la sesión; Desencriptar cambia solo la memoria.</p>
+    <p>Guardar reaplica en orden inverso las contraseñas usadas para descifrar durante la sesión. Sin descifrados en esa sesión, guarda el contenido tal como está. Al cerrar se liberan todas las contraseñas. Las notas editadas con estado sin verificar quedan fuera de las copias automáticas de iCloud. Compartir en avanzado pide una contraseña para aplicar una nueva capa a la copia.</p>
+
+  </main>
+  <footer>
+    <span>Crenalme · iPhone</span>
+    <a href="privacy.html">Privacidad</a>
+    <a href="terms.html">Condiciones</a>
+    <a href="support.html">Soporte</a>
+  </footer>
+</body>
+</html>
